@@ -4,7 +4,6 @@
     <!-- <img src="https://youtu.be/cWuzJBboQyE" alt=""> -->
     <!-- <img src="./assets/space-man.jpg" alt="space"> -->
     <!-- <video src="./assets/Floating_in_Space.mp4"></video> -->
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Title/>
     <Video/>
 
@@ -12,7 +11,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Title from './components/title.vue'
 import Video from './components/title.vue'
 
@@ -20,7 +18,6 @@ import Video from './components/title.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Title,
     Video
   }
