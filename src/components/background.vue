@@ -1,12 +1,8 @@
 <template>
     <div>
-        <h1>La mia prima app con Vue CLI!</h1>
-        <!-- <video autoplay muted loop id="myVideo">
-            <source src="./assets/Floating_in_Space.mp4" type="video/mp4">
-        </video> -->
-    <!-- <video src="././assets/Floating_in_Space.mp4"></video> -->
-    <img src=".././assets/space-man.jpg" alt="">
-
+        <video autoplay muted loop id="myVideo">
+            <source src="../assets/Floating_in_Space.mp4" type="video/mp4">
+        </video>
     </div>
 </template>
 
@@ -15,3 +11,13 @@ export default {
     name: 'Video',
 }
 </script>
+
+<style>
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 80vh;
+}
+</style>

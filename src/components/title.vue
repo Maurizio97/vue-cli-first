@@ -19,5 +19,6 @@ export default {
   width: 100%;
   padding: 20px;
   font-size: 50px;
+  z-index: 1;
 }
 </style>
